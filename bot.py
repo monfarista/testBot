@@ -2,7 +2,7 @@ import os
 import telegram
 from flask import Flask, request, Response
 
-bot = telegram.Bot(token='123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11')  # Remplace par ton token de @TestMonfaristaBot
+bot = telegram.Bot(token='7862267819:AAHfZIZRwcwSNnx4abMDDxiLNFs1ObTd9hg')
 app = Flask(__name__)
 
 @app.route('/webhook', methods=['POST'])
